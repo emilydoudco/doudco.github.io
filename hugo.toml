@@ -1,0 +1,36 @@
+baseURL = "https://doudco.com/"
+languageCode = "en-us"
+title = "Doud Co."
+theme = "PaperMod"
+
+[params]
+  description = "Layer 8 Support — IT services, photography, and graphic design."
+  author = "Emily Rose Doud"
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+
+  [params.homeInfoParams]
+    Title = "Doud Co. — Layer 8 Support"
+    Content = """
+Hi, I'm **Emily Rose Doud**, owner of Doud Co.
+
+Doud Co. is a one-woman operation offering IT and security services, photography, and graphic design — for people and small businesses who'd rather work with a real person than a faceless agency.
+
+The roses in the logo are mine — middle name. The ethernet cables are everyone else's. The "Layer 8" joke is for anyone who's ever worked a help desk.
+
+*Full portfolio launching soon — SOC lab writeups, case studies, and more on the way. Welcome.*
+"""
+
+ [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/doudco"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/emilydoud14/"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:layer8support@gmail.com"
