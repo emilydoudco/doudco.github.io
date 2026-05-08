@@ -10,3 +10,45 @@
   margin: 0 auto 1.5rem;
   border-radius: 8px;
 }
+/* Brand color palette */
+
+/* Light mode */
+:root {
+  --theme: #f8f0dc;        /* cream background */
+  --entry: #fef8e8;        /* lighter cream for cards */
+  --primary: #2a2218;      /* warm dark brown — main text */
+  --secondary: #6d5a48;    /* lighter brown — secondary text */
+  --tertiary: #d4c4a8;     /* tan — borders/dividers */
+  --content: #2a2218;      /* primary content text */
+  --code-bg: #efe4ce;      /* darker cream for code blocks */
+  --border: #d4c4a8;
+}
+
+/* Dark mode (when user toggles to dark) */
+.dark {
+  --theme: #1a1410;        /* very dark warm brown */
+  --entry: #251c14;
+  --primary: #f2e8d5;      /* cream text */
+  --secondary: #b8a888;
+  --tertiary: #4a3d2c;
+  --content: #f2e8d5;
+  --code-bg: #2a2218;
+  --border: #4a3d2c;
+}
+
+/* Rose-red accent for links */
+a {
+  color: #a8332c;
+}
+
+a:hover {
+  color: #8b2922;
+}
+
+.dark a {
+  color: #d6675e;
+}
+
+.dark a:hover {
+  color: #e88983;
+}
