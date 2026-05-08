@@ -3,3 +3,10 @@
   height: 26px !important;
   width: 26px !important;
 }
+.entry-content img,
+.post-content img {
+  max-width: 320px;
+  display: block;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+}

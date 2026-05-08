@@ -12,8 +12,10 @@ theme = "PaperMod"
   ShowBreadCrumbs = false
 
   [params.homeInfoParams]
-    Title = "Doud Co. — Layer 8 Support"
-    Content = """
+  Title = "Doud Co. — Layer 8 Support"
+  Content = """
+![Doud Co. logo](/images/logo.jpg)
+
 Hi, I'm **Emily Rose Doud**, owner of Doud Co.
 
 Doud Co. is a one-woman operation offering IT and security services, photography, and graphic design — for people and small businesses who'd rather work with a real person than a faceless agency.
@@ -25,7 +27,7 @@ The roses in the logo are mine — middle name. The ethernet cables are everyone
 
  [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/doudco"
+  url = "https://github.com/emilydoudco"
 
 [[params.socialIcons]]
   name = "linkedin"
